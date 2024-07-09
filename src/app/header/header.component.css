@@ -1,4 +1,4 @@
-header 
+/*header 
 {
     display:flex;
     justify-content: space-between;
@@ -9,4 +9,31 @@ header
 header img{
     height:auto;
     width:200px;
-  }
+  }*/
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #e9ecef;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: #343a40;
+}
+
+header div p {
+    margin: 0;
+    font-weight: bold;
+}
